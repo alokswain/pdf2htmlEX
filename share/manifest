@@ -71,18 +71,6 @@ try{
 # You can add a class 'opened' here if you want it always opened or you don't use pdf2htmlEX.js
 # e.g. 
 # <div id="sidebar" class="opened">
-"""
-<div id="sidebar">
-"""
-# container of outlines
-"""
-<div id="outline">
-"""
-$outline
-"""
-</div>
-</div>
-"""
 
 #############
 # The container of PDF pages
@@ -100,13 +88,6 @@ $pages
 # shown when loading a page via ajax
 # The default appearance should be invisible
 # The 'active' class will be added when it is used
-"""
-<div class="loading-indicator">
-"""
-@pdf2htmlEX-64x64.png
-"""
-</div>
-"""
 
 #############
 # Do not modify
